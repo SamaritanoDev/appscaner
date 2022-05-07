@@ -52,9 +52,9 @@ class _MyCodeBarState extends State<MyCodeBar> {
             end: FractionalOffset.bottomLeft,
             stops: const [0.1, 0.2, 0.5],
             colors: [
-              Colors.cyan[300],
-              Colors.cyan[200],
-              Colors.cyan[50],
+              Colors.cyan[300]!,
+              Colors.cyan[200]!,
+              Colors.cyan[50]!,
             ],
           ),
         ),
