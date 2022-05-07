@@ -31,8 +31,7 @@ class MyCodeBar extends StatefulWidget {
 class _MyCodeBarState extends State<MyCodeBar> {
   String _counter="", _value = "";
   Future _escanercode() async {
-    _counter = await FlutterBarcodeScanner.scanBarcode(
-        "#E8EAF6", "Cancelar", true, ScanMode.BARCODE);
+    _counter = await FlutterBarcodeScanner.scanBarcode("#E8EAF6", "Cancelar", true, ScanMode.BARCODE);
     setState(() {
       _value = _counter;
     });
